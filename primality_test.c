@@ -7,7 +7,7 @@ int isPrime(int n) {
 	
  if(n % 2 == 0) return 0;
  
- //FACT: Two factors of n; while one is greater than n, other one is less than n.
+ //FACT: For two factors of n; while one is greater than n, other one is less than n.
  long int max = floor(sqrt(n)); 
  
  printf("sqrt(n) = %ld\n", max);
